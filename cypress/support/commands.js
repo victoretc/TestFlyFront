@@ -18,12 +18,6 @@
     cy.get('button').contains('Log in').click();
     cy.url().should('contains','https://sciamp-cofxtu6c9-the-core.vercel.app/authorization')
 })
-
-
-
-
-
-
     
 Cypress.Commands.add('create_request', (hello) => {
     cy.contains(' Select a category ').click()
